@@ -1,0 +1,9 @@
+app:
+    #resource: '@AppBundle/Controller/'
+    #type: annotation
+    path: /calculator/{age}
+    defaults: {_controller: AppBundle:Calculator:index}
+    
+app2:
+    path: /calculator2/{age}
+    defaults: {_controller: AppBundle:Calculator2:index}
